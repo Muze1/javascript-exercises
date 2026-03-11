@@ -11,7 +11,7 @@
 // };
 
 const removeFromArray = function(array, ...args) {
-    return array.filter(val => !args.includes(val))
+    return array.filter(val => !args.includes(val));
 }
 
 console.log(removeFromArray([1, 2, 3], 3, 2));
