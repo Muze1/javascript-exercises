@@ -1,5 +1,5 @@
 const repeatString = function(string, num) {
-    if (num > 0) {
+    if (num >= 0) {
         let repeatedString = string;
 
         for (let i = 1; i < num; i++) {
@@ -8,7 +8,7 @@ const repeatString = function(string, num) {
 
         return repeatedString;
     }
-    else if (num <= 0) {
+    else if (num < 0) {
         return 'ERROR';
     }
 };
